@@ -35,10 +35,10 @@ public class SwaggerConfig {
 
         ApiInfo apiInfo = new ApiInfo(
                 "Livraria WDA - API REST",
-                "Crud Básico de uma livraria",
-                "2.0",
+                "Crud Básico de uma livraria - Front-end: https://livraria-wda-front-vue.herokuapp.com/",
+                "1.0",
                 "Terms of Service",
-                new Contact("Merykson Acácio", "'Em construção'",
+                new Contact("Merykson Acácio", "'Em construção",
                         "meryksonacacio2018@gmail.com"),
                 "",
                 "", new ArrayList<VendorExtension>()
