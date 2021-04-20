@@ -39,6 +39,7 @@ public class AluguelController {
     @ApiOperation(value = "Salva um novo aluguel")
     public Aluguel salvarA(@Valid @RequestBody Aluguel aluguel){
         Livro livro = livroRepository.findById(aluguel.getLivro().getId());
+        livro.setTotalAlugado(livro.getTotalAlugado() +1);
         livro.setAlugados(livro.getAlugados() + 1);
         livroController.atualizarL(livro);
         aluguel.setStatus(Status.EM_ANDAMENTO);

@@ -59,4 +59,6 @@ public class EstatisticaController {
     public List<Aluguel> ultimosAlugueis(){
         return aluguelRepository.ultimosAlugueis();
     }
+
+
 }

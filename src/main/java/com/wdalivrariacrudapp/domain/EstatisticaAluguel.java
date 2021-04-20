@@ -10,4 +10,5 @@ public class EstatisticaAluguel {
     private long entregueA;
     private long entregueP;
     private long noPrazo;
+
 }
